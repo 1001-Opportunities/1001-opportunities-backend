@@ -1,4 +1,10 @@
 package br.com.opportunities.repository;
 
-public interface CourseVideoRepository {
+import java.util.UUID;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import br.com.opportunities.model.CourseVideo;
+
+public interface CourseVideoRepository extends JpaRepository<CourseVideo, UUID> {
 }

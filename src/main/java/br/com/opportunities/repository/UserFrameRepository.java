@@ -1,4 +1,10 @@
 package br.com.opportunities.repository;
 
-public interface UserFrameRepository {
+import java.util.UUID;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import br.com.opportunities.model.UserFrame;
+
+public interface UserFrameRepository extends JpaRepository<UserFrame, UUID> {
 }
