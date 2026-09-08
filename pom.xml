@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>4.1.0</version> <!-- Ajustado para uma versão estável válida -->
+		<version>4.1.1</version> <!-- Ajustado para uma versão estável válida -->
 		<relativePath/>
 	</parent>
 	<groupId>br.com.milumoportunidades</groupId> <!-- Corrigido para incluir a org -->
